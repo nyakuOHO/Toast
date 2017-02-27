@@ -1,4 +1,4 @@
-package sakr.toast;
+﻿package sakr.toast;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
@@ -21,7 +21,7 @@ public class ToastOHO extends AppCompatActivity
             @Override
             public void onClick(View view)
             {
-                Toast.makeText(view.getContext(), "聽說這個顯示時間比較短(´・ω・｀)", Toast.LENGTH_SHORT).show();
+                Toast.makeText(view.getContext(), "聽說這個顯示時間比較長(´・ω・｀)", Toast.LENGTH_LONG).show();
             }
         });
     }
